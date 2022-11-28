@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap');
+
+*{
+    font-family :"Ubuntu Condensed",sans-serif,Arial;
+    color: #332D2D;
+   
+}
+
+.card{
+    transition: ease-in-out 100ms;
+    box-shadow: ease-in-out 100ms;
+}
+
+.card:hover,
+.card:focus{
+    translate: 0 -8px;
+    box-shadow:0 5px 8px 0 rgba(0,0,0,.2);
+}
+.image{
+    height: 250px;
+    width: auto;
+}
+.bookCover{
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+
+h1{
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+}
+h3{
+    font-weight: 100;
+    font-style: italic;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.synopsis{
+    text-align: left;
+    white-space: pre-line;
+}
+
+
